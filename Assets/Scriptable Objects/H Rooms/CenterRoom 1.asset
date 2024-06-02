@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: CenterRoom 1
+  m_EditorClassIdentifier: 
+  roomName: Sala Central
+  description: "Una sala la cual parece ser el centro de este templo, un candelabro
+    esta colgando del techo, puedes sentir mana de el fuego de las velas de este,
+    puedes ver las 4 salidas de esta habitaci\xF3n"
+  exits:
+  - direction: sur
+    description: "Al sur esta la puerta que lleva a la habitaci\xF3n por la cual
+      ca\xEDste, sigues sin saber como no se a roto, podrias volver a esa sala y
+      ponerte a llorar por no encontrar una salida o buscar algo en el resto de las
+      salas."
+    room: {fileID: 11400000, guid: f3a226fedda0c5a4ea033b48e78a9157, type: 2}
+  - direction: norte
+    description: Al norte una Puerta enorme al norte de la sala, con solo verla sabes
+      que no podras moverla, acercandote un poco puedes ver una cerradura.
+    room: {fileID: 11400000, guid: 870660922c3d7b44cb5117866ca7083c, type: 2}
+  - direction: este
+    description: Al este hay un pasillo bastante largo el cual lleva a una sala la
+      cual no puedes ver que hay en esta
+    room: {fileID: 11400000, guid: 5bc57da95d9521b4ba5cf1d00df7c5f6, type: 2}
+  - direction: oeste
+    description: "Al Oeste una puerta de madera abierta, no sabes si fue abierta
+      hace poco o quien fuera la \xFAltima persona que estubo aqu\xED la dejo as\xED,
+      puedes ver a traves de la rendija una habitaci\xF3n vacia, aunque si entraras
+      podrias ver en los puntos ciegos."
+    room: {fileID: 11400000, guid: d0f03fb2b201aee4f94aeea83564283f, type: 2}
+  items: []

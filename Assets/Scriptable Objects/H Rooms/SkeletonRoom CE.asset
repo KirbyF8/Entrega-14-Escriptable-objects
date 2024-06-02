@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: SkeletonRoom CE
+  m_EditorClassIdentifier: 
+  roomName: Sala del esqueleto SE
+  description: "Entraste en la sala, aun sabiendo que habia algo ah\xED dentro, un
+    esqueleto con una espada oxidada se te abalanza, con tu nueva espada consigues
+    bloquear el ataque y con un rapido movimiento destruyes la calavera del esqueleto
+    el cual empieza a convertirse en polvo dejando caer una llave"
+  exits:
+  - direction: sur
+    description: "Al sur la puerta por donde entraste, desde aqu\xED puedes ver la
+      fuente, un buen ba\xF1o no te vendria mal, pero ahora no es el momento tienes
+      que salir de aqu\xED"
+    room: {fileID: 11400000, guid: e569cde5403e7bb498352f12bf81e277, type: 2}
+  items:
+  - {fileID: 11400000, guid: adb7fc6f13cab8349a3b82a2f198c15a, type: 2}

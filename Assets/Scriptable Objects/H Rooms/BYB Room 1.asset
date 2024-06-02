@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: BYB Room 1
+  m_EditorClassIdentifier: 
+  roomName: BYB Room
+  description: "UN BOTON AMARILLO, en el centro de la habitacion hay un enorme boton,
+    te esta llamando, quieres presionarlo, pulsalo escuchas repetidamente, igualmente,
+    \xBFcuales son las probabilidades de que sea una trampa?"
+  exits:
+  - direction: oeste
+    description: Al oeste una puerta adornada con lineas que salen desde la cerradura
+      hasta el marco de la puerta, ahora la puerta esta abierta y puedes ver una
+      vitrina
+    room: {fileID: 11400000, guid: 74bdea29640700c4c96ce6364ddba9df, type: 2}
+  - direction: sur
+    description: En el sur miras a la sala por la cual has venido no te fias de que
+      ese esqueleto pueda levantarse
+    room: {fileID: 11400000, guid: d0f03fb2b201aee4f94aeea83564283f, type: 2}
+  items:
+  - {fileID: 11400000, guid: ca6903be2c1074044afb86a24b297d35, type: 2}

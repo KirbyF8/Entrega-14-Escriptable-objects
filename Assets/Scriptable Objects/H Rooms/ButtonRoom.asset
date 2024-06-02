@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: ButtonRoom
+  m_EditorClassIdentifier: 
+  roomName: Sala del boton
+  description: "Una sala bastante peque\xF1a por la cual casi no puedes moverte,
+    aunque puedes ver una llave la cual podrias coger"
+  exits:
+  - direction: norte
+    description: Al norte esta por donde has venido
+    room: {fileID: 11400000, guid: 5bc57da95d9521b4ba5cf1d00df7c5f6, type: 2}
+  items:
+  - {fileID: 11400000, guid: f2d0a76a593cd7144bf91386d3d7aede, type: 2}
